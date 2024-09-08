@@ -1,0 +1,57 @@
+/* Your CSS styling goes here */
+body {
+    background-color: #2c3e50; /* Change background color */
+    color: #f57600; /* Change text color */
+    font-family: Arial, sans-serif; /* Use a common font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+fieldset {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid hsl(204, 100%, 28%); /* Add border */
+    border-radius: 25px; /* Add border radius */
+    padding: 20px;
+}
+h1 {
+    text-align: center; /* Center align the heading */
+}
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 10px;
+}
+input[type="text"] {
+    width: calc(100% - 30px); /* Adjust input width */
+    padding: 5px; /* Add some padding */
+    border-radius: 10px; /* Add border radius */
+    border: 1px solid hwb(22 0% 0%); /* Add border */
+}
+ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space items evenly */
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #0063a5; /* Add background color */
+    border-radius: 10px; /* Add border radius */
+}
+li input[type="checkbox"] {
+    margin-right: 10px; /* Add some space between checkbox and text */
+}
+.delete-btn {
+    cursor: pointer;
+}
+.delete-icon {
+    fill: hsl(0, 100%, 50%); /* Set icon color */
+    width: 20px; /* Set icon width */
+    height: 20px; /* Set icon height */
+}
